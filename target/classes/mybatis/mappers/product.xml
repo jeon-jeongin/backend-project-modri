@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.product">
+	<resultMap id="productResult" type="productVO">
+		<result property="pno" column="pno" />
+        <result property="pcategory" column="pcategory" />
+        <result property="pname" column="pname" />
+        <result property="pdesc" column="pdesc" />
+        <result property="pprice" column="pprice" />
+        <result property="purl" column="purl" />
+	</resultMap> 
+
+	<select id="detailsProductList" resultType="productVO" parameterType="productVO">
+         select * from modriProTBL where pno =${pno}
+	</select>
+	
+	<select id="seachProduct" resultType="productVO" parameterType="productVO">
+		select * from modriProTBL
+		<where>
+			<choose>
+			 <when test="pname != null and pname != ''" >
+			 	 pname LIKE CONCAT('%',#{pname},'%')
+			 </when>
+			 </choose>
+		</where>
+		ORDER BY pno asc 
+	 </select> 
+</mapper>

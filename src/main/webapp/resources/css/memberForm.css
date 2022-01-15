@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.nav{
+	height: 750px;
+}
+
+.nav .signupForm{
+	margin: auto;
+	margin-top: 70px;
+	width:500px;
+	height:670px;
+	padding: 30px, 20px;
+	background-color:#FFFFFF;
+	border-radius: 15px;
+	border: 1px solid #EAEAEA;
+}
+
+.nav .signupForm .signup{
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+.nav .signupForm .signup input, select{
+	border-radius: 5px;
+	position: relative;
+	margin-bottom:20px;
+	padding: 10px 10px;
+	border: 1px solid #adadad;
+}
+
+.nav .signupForm .signup #id, #pass, #passCk, #name, #birth{
+	width: 380px;
+	height: 20px;
+}
+
+.nav .signupForm .signup #gender{
+	width: 400px;
+	height: 40px;
+}
+
+ .nav .signupForm .signup p{
+	position: relative;
+	padding-bottom: 7px;
+	
+} 
+
+.nav .signupForm input[type="submit"]{
+	position: relative;
+	left: 50px;
+	top: 50px;
+	background-color: #679467;
+	border-radius: 5px;
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}

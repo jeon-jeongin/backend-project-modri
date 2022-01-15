@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.nav{
+	height: 230px;
+	background-position: center;
+}
+
+.nav .search{
+	margin: auto;
+	height: 230px;
+	width: 400px;
+}
+	
+.nav .search img{
+	margin-top: 60px;
+	margin-left: 10px;
+}
+	
+.nav .search input[type="text"]{
+	padding: 8px;
+	font-size: 15px;
+	width: 310px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+	
+.nav .search #btn-search{
+	margin-top: 10px;
+	margin-left: -5px;
+	width: 60px;
+	height: 38px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;	
+	background-color: #FFC400;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+
+.section{
+	margin: auto;
+	width: 900px;
+	max-height: 1300px;
+	overflow: hidden;
+}
+
+.section .noProduct{
+	text-align: center;
+	font-size: 25px;
+	padding: 50px;
+}
+
+.section .serchList{
+	text-align: center;
+}
+	
+.section .serchList a {
+	cursor: pointer;
+}
+	
+.section .serchList .thumbnail {
+	text-align: center;
+	position:relative;
+	padding: 7px;
+	margin: 10px 10px;
+	width: 262px;
+	height: 262px;
+	} 
+	
+.section img{
+	width: 250px;
+	height: 230px;
+}
+	
+ .productName {
+    color: #1C2833;
+    font-size: 13px;   
+}  

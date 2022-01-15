@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.nav{
+	margin: auto;
+	width: 1000px;
+	height: 500px;
+}
+
+.nav .section{
+	margin: 50px;
+}
+
+.nav .section #section_l{
+	float: left;
+}
+
+.nav .section #section_r{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.nav .section #section_r #name, #price{
+	font-size: 23px;
+	font: bold;
+	color: #333333;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.nav .section #section_r #noCategory, #desc{
+	font-size: 15px;
+	color: #666666;
+	padding: 10px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.nav .section #section_r #review, #QA{
+	margin-top: 30px;
+	background-color: #679467;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}

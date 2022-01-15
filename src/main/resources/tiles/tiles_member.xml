@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+   <definition name="baseLayout"  template="/WEB-INF/views/common/layout.jsp">
+      <put-attribute name="title" value="" />
+      <put-attribute name="header" value="/WEB-INF/views/common/header.jsp" />
+      <put-attribute name="body" value="" />
+      <put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp" />
+   </definition>
+
+   <definition name="main" extends="baseLayout">
+      <put-attribute name="title" value="메인페이지" />
+      <put-attribute name="body" value="/WEB-INF/views/main.jsp" />
+   </definition>
+
+
+   <definition name="/user/listMembers" extends="baseLayout">
+      <put-attribute name="title" value="회원목록창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/listMembers.jsp" />
+   </definition>
+
+    
+   <definition name="/user/loginForm" extends="baseLayout">
+      <put-attribute name="title" value="로그인창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/loginForm.jsp" />
+   </definition>
+      
+
+   <definition name="/user/memberForm" extends="baseLayout">
+      <put-attribute name="title" value="회원등록창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/memberForm.jsp" />
+   </definition>
+   
+    <definition name="/user/modMember" extends="baseLayout">
+      <put-attribute name="title" value="회원관리창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/modMember.jsp" />
+   </definition>
+   
+   <definition name="/user/productSearch" extends="baseLayout">
+      <put-attribute name="title" value="제품 검색창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/productSearch.jsp" />
+   </definition>
+   
+   <definition name="/user/allProductCate" extends="baseLayout">
+      <put-attribute name="title" value="모든 제품 카테고리" />
+      <put-attribute name="body" value="/WEB-INF/views//user/allProductCate.jsp" />
+   </definition>
+   
+   <definition name="/user/memberFormCk" extends="baseLayout">
+      <put-attribute name="title" value="회원가입 약관동의" />
+      <put-attribute name="body" value="/WEB-INF/views/user/memberFormCk.jsp" />
+   </definition>
+   
+   <definition name="/user/detailsProduct" extends="baseLayout">
+      <put-attribute name="title" value="제품 상세창" />
+      <put-attribute name="body" value="/WEB-INF/views/user/detailsProduct.jsp" />
+   </definition>
+   
+</tiles-definitions>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.nav{
+	height: 750px;
+}
+
+.nav .modForm{
+	margin: auto;
+	margin-top: 70px;
+	width:500px;
+	height:670px;
+	padding: 30px, 20px;
+	background-color:#FFFFFF;
+	border-radius: 15px;
+	border: 1px solid #EAEAEA;
+}
+
+.nav .modForm .mod{
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+.nav .modForm .mod input, select{
+	border-radius: 5px;
+	position: relative;
+	margin-bottom:20px;
+	padding: 10px 10px;
+	border: 1px solid #adadad;
+}
+
+.nav .modForm .mod #id, #pass, #name, #gender, #birth, #date{
+	width: 380px;
+	height: 20px;
+}
+
+.nav .modForm .mod #id, #gender, #birth, #date{
+	background-color: #EEEEEE;
+}
+
+.nav .modForm .mod p{
+	position: relative;
+	padding-bottom: 7px;
+}
+
+.nav .modForm .mod #passInfo{
+	position: relative;
+	font-size: 12px;
+	padding-bottom: 5px;
+} 
+
+.nav .modForm input[type="submit"]{
+	position: relative;
+	left: 50px;
+	top: 50px;
+	background-color: #679467;
+	border-radius: 5px;
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}

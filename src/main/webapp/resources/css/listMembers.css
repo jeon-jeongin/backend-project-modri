@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.nav{
+		height: 500px;
+	}
+	
+	table{
+		border: 1px solid #EAEAEA;
+		margin: auto;
+		margin-top: 15px;
+		
+	}
+	td b{
+		font-size: 15px;
+		color: white;	
+	}
+	
+	td, a{
+		color: #333333;
+		font-size: 15px;
+		text-decoration: none;
+	}

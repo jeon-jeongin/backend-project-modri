@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.nav{
+	height: 800px;
+}
+
+.nav .signForm{
+	margin: auto;
+	margin-top: 70px;
+	width:500px;
+	height:750px;
+	padding: 30px, 20px;
+	background-color:#FFFFFF;
+	border-radius: 15px;
+	border: 1px solid #EAEAEA;
+}
+.nav .signForm ul li{
+	list-style-type: none;
+	margin: 30px 30px 30px 40px;
+}
+
+.nav .signForm span{
+	padding: 10px;
+}
+
+.nav .signForm textarea{
+	border: 1px solid #adadad;
+}
+
+.nav .signForm input[type="button"]{
+	position: relative;
+	left: 40px;
+	top: -20px;
+	background-color: #679467;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+.nav .signForm input[type="submit"]{
+	position: relative;
+	left: 50px;
+	top: -20px;
+	background-color: #679467;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
